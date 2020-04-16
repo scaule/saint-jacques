@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/saint-jacques/static/css/main.d1b05096.chunk.css",
+    "main.js": "/saint-jacques/static/js/main.6413bd8d.chunk.js",
+    "main.js.map": "/saint-jacques/static/js/main.6413bd8d.chunk.js.map",
+    "runtime-main.js": "/saint-jacques/static/js/runtime-main.92ccb2f1.js",
+    "runtime-main.js.map": "/saint-jacques/static/js/runtime-main.92ccb2f1.js.map",
+    "static/js/2.94109b33.chunk.js": "/saint-jacques/static/js/2.94109b33.chunk.js",
+    "static/js/2.94109b33.chunk.js.map": "/saint-jacques/static/js/2.94109b33.chunk.js.map",
+    "index.html": "/saint-jacques/index.html",
+    "precache-manifest.9d84a744ad07350927b379f78b6c2f57.js": "/saint-jacques/precache-manifest.9d84a744ad07350927b379f78b6c2f57.js",
+    "service-worker.js": "/saint-jacques/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/saint-jacques/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.94109b33.chunk.js.LICENSE.txt": "/saint-jacques/static/js/2.94109b33.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/saint-jacques/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92ccb2f1.js",
+    "static/js/2.94109b33.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.6413bd8d.chunk.js"
+  ]
+}
