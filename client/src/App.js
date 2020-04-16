@@ -11,7 +11,12 @@ const App = () => {
   ];
 
   const views = pages.map((page, index) => (
-    <Route key={index} exact path={page.path} component={page.component} />
+    <Route
+      key={index}
+      exact
+      path={`${process.env.PUBLIC_URL}${page.path}`}
+      component={page.component}
+    />
   ));
 
   return (

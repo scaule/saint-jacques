@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = (props) => {
   const menu = props.pages.map((page, index) => (
     <li key={index}>
-      <Link to={page.path}>{page.label}</Link>
+      <Link to={`${process.env.PUBLIC_URL}${page.path}`}>{page.label}</Link>
     </li>
   ));
 
