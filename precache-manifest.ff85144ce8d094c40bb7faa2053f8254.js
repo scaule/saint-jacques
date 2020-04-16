@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ad87e6a51a9ac6456d747c997a38ca2",
+    "revision": "0e32c53f7ecbd818a0860cf8525ebcdb",
     "url": "/saint-jacques/index.html"
   },
   {
-    "revision": "56eb8a06649ae1f43a47",
+    "revision": "84c93eeead4e68a3881f",
     "url": "/saint-jacques/static/css/main.37be9ea8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/saint-jacques/static/js/2.22713eec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56eb8a06649ae1f43a47",
-    "url": "/saint-jacques/static/js/main.4c7825e1.chunk.js"
+    "revision": "84c93eeead4e68a3881f",
+    "url": "/saint-jacques/static/js/main.bca99230.chunk.js"
   },
   {
     "revision": "57599aa95d03ce279f79",
