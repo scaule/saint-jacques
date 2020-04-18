@@ -2,9 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = (props) => {
-  const menu = props.pages.map((page, index) => (
+  const { pages } = props;
+
+  const menu = Object.keys(pages).map((key, index) => (
     <li key={index}>
-      <Link to={`${process.env.PUBLIC_URL}${page.path}`}>{page.label}</Link>
+      <Link to={`${process.env.PUBLIC_URL}${pages[key].path}`}>
+        {pages[key].label}
+      </Link>
     </li>
   ));
 
