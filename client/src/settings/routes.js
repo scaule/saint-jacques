@@ -9,16 +9,16 @@ export default {
     component: Home,
     guard: false,
   },
-  login: {
-    path: "/login",
-    label: "Se connecter",
-    component: Login,
-    guard: false,
-  },
   spots: {
     path: "/spots",
     label: "Spots",
     component: Spots,
     guard: true,
+  },
+  login: {
+    path: "/login",
+    label: "Se connecter",
+    component: Login,
+    guard: false,
   },
 };
