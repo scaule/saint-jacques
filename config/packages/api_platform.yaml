@@ -3,14 +3,18 @@ api_platform:
         paths: ['%kernel.project_dir%/src/Entity']
     patch_formats:
         json: ['application/merge-patch+json']
-    swagger:
-        versions: [3]
     http_cache:
         invalidation:
-            enabled: true
-            varnish_urls: ['%env(VARNISH_URL)%']
+            enabled: false
         max_age: 0
         shared_max_age: 3600
         vary: ['Content-Type', 'Authorization', 'Origin']
         public: true
     enable_swagger_ui: false
+
+    swagger:
+        versions: [3]
+        api_keys:
+            apiKey:
+                name: Authorization
+                type: header
