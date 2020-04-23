@@ -1,7 +1,19 @@
 .header {
   padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 
   &__brand {
     text-transform: uppercase;
+  }
+
+  &__menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+  }
+
+  &__menu li {
+    margin: 0 1rem;
   }
 }
